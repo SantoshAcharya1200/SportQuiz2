@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/quiz_mart"
+        android:icon="@drawable/ic_star_black_24dp"
+        android:title="Quiz Topics" />
+
+
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="Home"/>
+
+
+    <item
+        android:id="@+id/ladder_board"
+        android:title="Ladder Board"
+        android:icon="@drawable/ic_free_breakfast_black_24dp"/>
+
+
+
+</menu>

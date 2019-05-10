@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/rma9"
+
+    tools:context=".Done">
+
+    <com.github.pavlospt.CircleView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/your_best_score"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="130dp"
+        app:cv_titleSubtitleSpace="40"
+        app:cv_fillColor="@color/colorWhite"
+        app:cv_strokeColorValue="@color/colorPrimaryDark"
+        app:cv_backgroundColorValue="@color/colorPrimaryDark"
+        app:cv_titleColor="@color/colorAccent"
+        app:cv_titleSize="25sp"
+        app:cv_titleText="85%"
+        app:cv_subtitleText="correct"
+        app:cv_subtitleColor="@color/colorAccent"
+        app:cv_subtitleSize="12sp"
+        android:layout_gravity="center_horizontal"/>
+
+    <RelativeLayout
+        android:layout_centerInParent="true"
+        android:layout_margin="30dp"
+        android:padding="20dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@+id/btnGroup"
+            android:paddingTop="40dp"
+            android:layout_marginTop="120dp"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:id="@+id/txtTotalScore"
+                android:text="Score : 0"
+                android:textSize="36sp"
+                android:textColor="#F1EDED"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="8dp"
+                android:background="@color/colorAccent"
+                android:layout_marginBottom="16dp"/>
+            <TextView
+                android:id="@+id/txtTotalQuestion"
+                android:text="Passed : 0/30"
+                android:textSize="36sp"
+                android:textColor="#F7F3F3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="8dp"
+                android:background="@color/colorAccent"
+                android:layout_marginBottom="16dp"/>
+
+            <ProgressBar
+                style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                android:id="@+id/doneProgressBar"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="0dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:background="@color/white"/>
+
+            <Button
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnTryAgain"
+
+                android:background="@color/colorAccent"
+                android:text="Try Again"
+                android:textColor="@color/colorWhite"
+                android:textStyle="bold"
+                android:paddingTop="2dp"/>
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "868835304428",
+    "firebase_url": "https://sportquiz2-b277c.firebaseio.com",
+    "project_id": "sportquiz2-b277c",
+    "storage_bucket": "sportquiz2-b277c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:868835304428:android:3589db798753df23",
+        "android_client_info": {
+          "package_name": "com.example.santos.sportquiz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "868835304428-g8bafu7cpthnqcvu59d429puvcp1hrpr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.santos.sportquiz",
+            "certificate_hash": "11019964fb5c952d4ad6d0e1a1a3278417525bf2"
+          }
+        },
+        {
+          "client_id": "868835304428-6j9m3j2bvaruhr57e3pbv4q0ld5cta2s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZOsMDUcZm-tfv9Cb8jyPuYVQuXHJgqAY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "868835304428-6j9m3j2bvaruhr57e3pbv4q0ld5cta2s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
